@@ -20,7 +20,7 @@ export default function AboutPage() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length)
-    }, 2000)
+    }, 3000)
     return () => clearInterval(timer)
   }, [])
 
@@ -42,7 +42,7 @@ export default function AboutPage() {
         <div className="relative container mx-auto px-4 py-24 sm:py-32 z-10 h-full flex items-center">
           <div className="max-w-3xl text-white">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">About Us</h1>
-            <p className="mt-6 text-xl color-violet">
+            <p className="mt-6 text-xl text-primary-foreground">
               Learn about our history, mission, and the passionate team behind GILF's impactful work.
             </p>
           </div>
@@ -54,12 +54,20 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 rounded-lg overflow-hidden">
-              <Image src="/placeholder.svg?height=600&width=800" alt="GILF History" fill className="object-cover" />
+              <Image 
+                src="/brand/gilf_logo.jpg" 
+                alt="GILF History" 
+                fill
+                quality={100}
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                className="object-contain" 
+                priority
+              />
             </div>
             <div>
               <h2 className="section-title">Our History & Founding Story</h2>
               <p className="mt-6 text-lg text-gray-600">
-                GILF was founded in [year] by a group of passionate individuals who recognized the need for leadership
+                GILF was founded in 2024 by a group of passionate individuals who recognized the need for leadership
                 development and educational support in underserved communities.
               </p>
               <p className="mt-4 text-lg text-gray-600">
@@ -176,33 +184,80 @@ export default function AboutPage() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto mb-4">
                 <Image
-                  src="/mentors/paul.png"
-                  alt="Paul Lamptey"
+                  src="/mentors/metor_Judith.jpeg"
+                  alt="Judith"
                   fill
                   className="object-cover rounded-full"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Paul Lamptey</h3>
-              <p className="text-primary font-medium mb-3">Director of Technology and Innovation</p>
-              <p className="text-gray-600">
-                Software Engineer with a passion for leveraging technology to create social impact.
-              </p>
+              <h3 className="text-xl font-semibold mb-2">Judith Yaa-Baby</h3>
+              <p className="text-primary font-medium mb-3">Founder, Errand Eye</p>
             </div>
 
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto mb-4">
                 <Image
-                  src="/mentors/theresa.png"
+                  src="/team/theresa.png"
                   alt="Theresa Ajube"
                   fill
                   className="object-cover rounded-full"
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2">Theresa Ajube</h3>
-              <p className="text-primary font-medium mb-3">Director of Administration and Coordination</p>
-              <p className="text-gray-600">
-                Aspiring Data Analyst passionate about guiding younger individuals in their educational journey.
-              </p>
+              <p className="text-primary font-medium mb-3">Comp. Eng. Accra Institute of Technology</p>
+            </div>
+
+            <div className="text-center">
+              <div className="relative w-48 h-48 mx-auto mb-4">
+                <Image
+                  src="/mentors/mentor_Ernest.jpeg"
+                  alt="Ernest"
+                  fill
+                  className="object-cover rounded-full"
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Ernest Aleke</h3>
+              <p className="text-primary font-medium mb-3">Founder, LearnStep</p>
+            </div>
+
+            <div className="text-center">
+              <div className="relative w-48 h-48 mx-auto mb-4">
+                <Image
+                  src="/mentors/mentor_Paul_Apeadu.jpeg"
+                  alt="Paul"
+                  fill
+                  className="object-cover rounded-full"
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Paul Appeadu</h3>
+              <p className="text-primary font-medium mb-3">Comp. Sci. Ashesi University</p>
+            </div>
+
+            <div className="text-center">
+              <div className="relative w-48 h-48 mx-auto mb-4">
+                <Image
+                  src="/mentors/mentor_Reynolds.jpeg"
+                  alt="Reynold"
+                  fill
+                  className="object-cover rounded-full"
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Reynolds Okyere</h3>
+              <p className="text-primary font-medium mb-3">Assis. Faculty, Ashesi University</p>
+    
+            </div>
+
+            <div className="text-center">
+              <div className="relative w-48 h-48 mx-auto mb-4">
+                <Image
+                  src="/team/edward.png"
+                  alt="Edward"
+                  fill
+                  className="object-cover rounded-full"
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Edward Mensah</h3>
+              <p className="text-primary font-medium mb-3">Comp. Sci. Ashesi University</p>
             </div>
           </div>
         </div>
