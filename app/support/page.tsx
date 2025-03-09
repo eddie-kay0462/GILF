@@ -50,7 +50,7 @@ export default function SupportPage() {
                   </div>
                   <div>
                     <p className="font-medium text-gray-700">Account Name:</p>
-                    <p className="text-gray-600">Ghana Innovation Leaders Foundation</p>
+                    <p className="text-gray-600">Ghana Impact Leaders Foundation</p>
                   </div>
                 </div>
                 
@@ -90,7 +90,7 @@ export default function SupportPage() {
                 
                 <div>
                   <p className="font-medium text-gray-700">Account Name:</p>
-                  <p className="text-gray-600">Ghana Innovation Leaders Foundation</p>
+                  <p className="text-gray-600">Ghana Impact Leaders Foundation</p>
                 </div>
               </div>
             </div>
