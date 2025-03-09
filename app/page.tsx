@@ -342,7 +342,7 @@ export default function Home() {
               </div>
               <div className="relative h-64 lg:h-full rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=500&width=700"
+                  src="/brand/support_us.jpeg"
                   alt="Join Our Mission"
                   fill
                   className="object-cover"
