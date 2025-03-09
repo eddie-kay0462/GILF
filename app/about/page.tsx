@@ -9,33 +9,40 @@ export default function AboutPage() {
   const slides = [
     "/about/about-slide-1.jpg",
     "/about/about-slide-2.jpg", 
-    "/about/about-slide-3.jpg"
+    "/about/about-slide-3.jpg",
+    "/about/about-slide-3a.jpg",
+    "/about/about-slide-3b.jpg",
+    "/about/about-slide-4.jpg",
+    "/about/about-slide-5.jpg",
+    "/about/about-slide-6.jpg"
   ]
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length)
-    }, 5000)
+    }, 2000)
     return () => clearInterval(timer)
   }, [])
 
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-white">
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70 z-0">
+      <section className="relative bg-white h-[600px] md:h-[500px]">
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/60">
           <Image
             src={slides[currentSlide]}
             alt="About GILF"
             fill
-            className="object-cover mix-blend-overlay transition-opacity duration-1000"
+            sizes="100vw"
+            quality={100}
+            className="object-cover object-center transition-opacity duration-1000"
             priority
           />
         </div>
-        <div className="relative container mx-auto px-4 py-24 sm:py-32 z-10">
+        <div className="relative container mx-auto px-4 py-24 sm:py-32 z-10 h-full flex items-center">
           <div className="max-w-3xl text-white">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">About Us</h1>
-            <p className="mt-6 text-xl">
+            <p className="mt-6 text-xl color-violet">
               Learn about our history, mission, and the passionate team behind GILF's impactful work.
             </p>
           </div>
