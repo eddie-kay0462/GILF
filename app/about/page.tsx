@@ -191,7 +191,7 @@ export default function AboutPage() {
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2">Judith Yaa-Baby</h3>
-              <p className="text-primary font-medium mb-3">Founder, Errand Eye</p>
+              <p className="text-primary font-medium mb-3">Founder, Errand Eye. BA. Ashesi University</p>
             </div>
 
             <div className="text-center">
