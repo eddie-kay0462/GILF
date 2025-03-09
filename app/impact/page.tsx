@@ -220,91 +220,7 @@ export default function ImpactPage() {
         </div>
       </section>
 
-      {/* Reports Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center max-w-3xl mx-auto">
-            <h2 className="section-title">Reports & Transparency</h2>
-            <p className="section-subtitle">
-              We are committed to transparency and accountability in all our operations.
-            </p>
-          </div>
 
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-4">Annual Reports</h3>
-              <ul className="space-y-3">
-                <li>
-                  <Link href="#" className="flex items-center text-primary hover:underline">
-                    <Download className="h-4 w-4 mr-2" />
-                    Annual Report 2023
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="flex items-center text-primary hover:underline">
-                    <Download className="h-4 w-4 mr-2" />
-                    Annual Report 2022
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="flex items-center text-primary hover:underline">
-                    <Download className="h-4 w-4 mr-2" />
-                    Annual Report 2021
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-4">Financial Statements</h3>
-              <ul className="space-y-3">
-                <li>
-                  <Link href="#" className="flex items-center text-primary hover:underline">
-                    <Download className="h-4 w-4 mr-2" />
-                    Financial Statement 2023
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="flex items-center text-primary hover:underline">
-                    <Download className="h-4 w-4 mr-2" />
-                    Financial Statement 2022
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="flex items-center text-primary hover:underline">
-                    <Download className="h-4 w-4 mr-2" />
-                    Financial Statement 2021
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-4">Impact Reports</h3>
-              <ul className="space-y-3">
-                <li>
-                  <Link href="#" className="flex items-center text-primary hover:underline">
-                    <Download className="h-4 w-4 mr-2" />
-                    Impact Report 2023
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="flex items-center text-primary hover:underline">
-                    <Download className="h-4 w-4 mr-2" />
-                    Impact Report 2022
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="flex items-center text-primary hover:underline">
-                    <Download className="h-4 w-4 mr-2" />
-                    Impact Report 2021
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Media Gallery Section */}
       <section className="py-16 bg-white">
@@ -335,13 +251,6 @@ export default function ImpactPage() {
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image src="/placeholder.svg?height=400&width=600" alt="GILF Program" fill className="object-cover" />
             </div>
-          </div>
-
-          <div className="mt-8 text-center">
-            <Link href="#" className="text-primary font-medium inline-flex items-center">
-              View full gallery
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
           </div>
         </div>
       </section>
