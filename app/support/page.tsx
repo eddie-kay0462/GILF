@@ -10,7 +10,7 @@ export default function SupportPage() {
       <section className="relative bg-white">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70 z-0">
           <Image
-            src="/placeholder.svg?height=600&width=800"
+            src="/brand/support_us.jpeg"
             alt="Support GILF"
             fill
             className="object-cover mix-blend-overlay"
