@@ -250,7 +250,7 @@ export default function AboutPage() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto mb-4">
                 <Image
-                  src="/team/edward.png"
+                  src="/team/edward.jpg"
                   alt="Edward"
                   fill
                   className="object-cover rounded-full"

@@ -100,7 +100,7 @@ export default function Home() {
             <div className="text-center mt-12 md:mt-16">
               <div className="relative w-48 h-48 mx-auto mb-4">
                 <Image
-                  src="/team/edward.png"
+                  src="/team/edward.jpg"
                   alt="Team Member Name"
                   fill
                   className="object-cover rounded-full"
