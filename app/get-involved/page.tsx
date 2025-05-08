@@ -11,7 +11,7 @@ export default function GetInvolvedPage() {
       <section className="relative bg-white">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70 z-0">
           <Image
-            src="/placeholder.svg?height=600&width=1600"
+            src="https://placehold.co/1600x600/2563eb/ffffff?text=Get+Involved+with+GILF"
             alt="Get Involved with GILF"
             fill
             className="object-cover mix-blend-overlay"
@@ -41,7 +41,7 @@ export default function GetInvolvedPage() {
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=400&width=600" alt="Volunteer" fill className="object-cover" />
+                <Image src="https://placehold.co/600x400/2563eb/ffffff?text=Volunteer" alt="Volunteer" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Volunteer</h3>
@@ -58,7 +58,7 @@ export default function GetInvolvedPage() {
 
             <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=400&width=600" alt="Partner" fill className="object-cover" />
+                <Image src="https://placehold.co/600x400/2563eb/ffffff?text=Partner" alt="Partner" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Partner With Us</h3>
@@ -75,7 +75,7 @@ export default function GetInvolvedPage() {
 
             <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=400&width=600" alt="Donate" fill className="object-cover" />
+                <Image src="https://placehold.co/600x400/2563eb/ffffff?text=Donate" alt="Donate" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Support Our Work</h3>
@@ -204,7 +204,7 @@ export default function GetInvolvedPage() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center mb-4">
                 <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4">
-                  <Image src="/placeholder.svg?height=100&width=100" alt="Volunteer" fill className="object-cover" />
+                  <Image src="https://placehold.co/100x100/2563eb/ffffff?text=Volunteer" alt="Volunteer" fill className="object-cover" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">Michael T.</h3>
@@ -221,7 +221,7 @@ export default function GetInvolvedPage() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center mb-4">
                 <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4">
-                  <Image src="/placeholder.svg?height=100&width=100" alt="Volunteer" fill className="object-cover" />
+                  <Image src="https://placehold.co/100x100/2563eb/ffffff?text=Volunteer" alt="Volunteer" fill className="object-cover" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">Lisa R.</h3>

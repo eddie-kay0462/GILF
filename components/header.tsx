@@ -12,7 +12,6 @@ const navigation = [
   { name: "Get Involved", href: "/get-involved" },
   { name: "Impact", href: "/impact" },
   { name: "Blog", href: "/blog" },
-  { name: "Contact", href: "/contact" },
 ]
 
 export default function Header() {

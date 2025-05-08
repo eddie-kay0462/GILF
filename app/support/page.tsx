@@ -10,8 +10,8 @@ export default function SupportPage() {
       <section className="relative bg-white">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70 z-0">
           <Image
-            src="/brand/support_us.jpeg"
-            alt="Support GILF"
+            src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=2070"
+            alt="Support GILF - People joining hands together in unity and support"
             fill
             className="object-cover mix-blend-overlay"
             priority
@@ -140,12 +140,12 @@ export default function SupportPage() {
               <p className="text-lg text-gray-600 mb-8">
                 Our team is here to help you learn more about how you can support our mission.
               </p>
-              <Link 
-                href="/contact" 
+              <a 
+                href="mailto:info@gilfghana.org"
                 className="inline-block rounded-full bg-primary text-white px-8 py-3 font-medium hover:bg-primary/90"
               >
                 Contact Us
-              </Link>
+              </a>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ export default function ProgramsPage() {
       <section className="relative bg-white">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70 z-0">
           <Image
-            src="/placeholder.svg?height=600&width=1600"
+            src="https://placehold.co/1600x600/2563eb/ffffff?text=GILF+Programs"
             alt="GILF Programs"
             fill
             className="object-cover mix-blend-overlay"
@@ -66,7 +66,7 @@ export default function ProgramsPage() {
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="https://placehold.co/800x600/2563eb/ffffff?text=Leadership+Programs"
                 alt="Leadership Programs"
                 fill
                 className="object-cover"
@@ -82,7 +82,7 @@ export default function ProgramsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 rounded-lg overflow-hidden lg:order-first">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="https://placehold.co/800x600/2563eb/ffffff?text=Education+Programs"
                 alt="Education Programs"
                 fill
                 className="object-cover"
@@ -164,7 +164,7 @@ export default function ProgramsPage() {
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="https://placehold.co/800x600/2563eb/ffffff?text=Community+Development"
                 alt="Community Development"
                 fill
                 className="object-cover"
@@ -188,7 +188,7 @@ export default function ProgramsPage() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center mb-4">
                 <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4">
-                  <Image src="/placeholder.svg?height=100&width=100" alt="Testimonial" fill className="object-cover" />
+                  <Image src="https://placehold.co/100x100/2563eb/ffffff?text=Testimonial" alt="Testimonial" fill className="object-cover" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">Sarah M.</h3>
@@ -205,7 +205,7 @@ export default function ProgramsPage() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center mb-4">
                 <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4">
-                  <Image src="/placeholder.svg?height=100&width=100" alt="Testimonial" fill className="object-cover" />
+                  <Image src="https://placehold.co/100x100/2563eb/ffffff?text=Testimonial" alt="Testimonial" fill className="object-cover" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">James K.</h3>
@@ -222,7 +222,7 @@ export default function ProgramsPage() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center mb-4">
                 <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4">
-                  <Image src="/placeholder.svg?height=100&width=100" alt="Testimonial" fill className="object-cover" />
+                  <Image src="https://placehold.co/100x100/2563eb/ffffff?text=Testimonial" alt="Testimonial" fill className="object-cover" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">Maria L.</h3>
